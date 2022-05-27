@@ -1,3 +1,6 @@
+/* **************  **************  **************  **************  **************  */
+/* **************   ESTILOS EN HEADER Y ELEMENTOS QUE LO COMPONEN   ************** */
+/* **************  **************  **************  **************  **************  */
 header {
     background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
@@ -5,10 +8,12 @@ header {
 
 .buscar {
     text-align: center;
+    margin: auto;
 }
 
 .pagar {
     text-align: center;
+    margin: auto;
 }
 
 #menu{
@@ -20,10 +25,59 @@ header {
     background-color: #1259c3;
     color:white;
     width: 50px;
-    height: 30px;
-    line-height: 30px;
+    height:40px;
+    line-height: 40px;
     display: inline-block;
     text-align: center;
     border-radius: 8px;
 }
 
+
+/* **************  **************  **************  **************  **************  */
+/* **************    ESTILOS EN FOOTER Y ELEMENTOS QUE LO COMPONEN  ************** */
+/* **************  **************  **************  **************  **************  */
+
+footer {
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 2em;
+margin: auto;
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+
+#credit{
+    color: #1259c3;
+}
+
+#gift{
+    color: #1259c3;
+}
+
+#security{
+    color: #1259c3;
+}
+
+.pagotarjeta p
+{
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.enviogratis p
+{
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.protegido p
+{
+    margin-bottom: 10px;
+    color: #666;
+}
+#derechosautor{
+    margin-bottom: 10px;
+    color: #ebebeb;
+}
