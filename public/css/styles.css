@@ -75,20 +75,18 @@ main section{
     height: 30px;
     font-size: 16px;
     border-radius: 100%;
-    
 }
-
 .producto {
 background-color:white;
 border: #ebebeb solid 15px;
-margin: 15px, 15px, 15px, 15px;
-}
+padding: 15px;
+} 
 
 .descripciongeneral{
     
-    padding: 15px;
-    border: #ebebeb solid 1px;
-}
+   padding: 15px;
+   border-top: #ebebeb solid 1px;
+} 
 
 .precio{
     color: black;
@@ -102,6 +100,11 @@ margin: 15px, 15px, 15px, 15px;
 
 .detalleproducto{
     color: #666;
+}
+
+main {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
 }
 
 /* **************  **************  **************  **************  **************  */
@@ -145,3 +148,13 @@ footer p{
     margin-top: 1px; 
 }
 
+/* **************  **************  **************  **************  **************  */
+/* **************                   MEDIA QUERIES                   ************** */
+/* **************  **************  **************  **************  **************  */
+@media screen and (min-width: 361px){
+   
+}
+
+@media screen and (min-width: 769px){
+   
+}
