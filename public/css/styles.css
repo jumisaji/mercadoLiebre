@@ -62,6 +62,19 @@ main section{
     margin-bottom: 10px;
 }
 
+#camionenvio {
+    margin: auto;
+    text-align:justify;
+    color: #39b54a;
+    border: #39b54a solid 1px;
+    display: block;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 100%;
+    
+}
 
 
 /* **************  **************  **************  **************  **************  */

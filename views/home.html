@@ -21,15 +21,15 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
 
 </head>
 
-<nav>   </nav>
+<nav> </nav>
+
 <body>
     <!-- HEADER --> <!-- Header contiene, logo, secciones de busqueda, compra y opciones con listas-->
      <header>  
-         <nav class="encabezado"></nav>
-         <nav class="logo"></nav>
-   <!-- LOGO -->
-<nav id="logo"><figure><img src= "/images/logo-mercado-liebre.svg" alt ="Logo de Mercado Liebre"></figure></nav>
-    
+         <nav class="encabezado">
+             <!-- LOGO -->
+             <nav id="logo"><figure><img src= "/images/logo-mercado-liebre.svg" alt ="Logo de Mercado Liebre"></figure></nav>
+            </nav>
     
     <!--SECCIÓN DE BUSQUEDA-->
 <section>
@@ -42,8 +42,7 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
 <section>
     <nav class="pagar">
     <p> <h3><i class="fa-solid fa-hand-holding-dollar"></i><b>Compra en cuotas y sin tarjeta de crédito</b></h3></p>
-    
-</nav>
+    </nav>
 </section>
     
 
@@ -89,6 +88,8 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
      <!-- MAIN  --> <!-- Contiene los productos en dos secciones-->
      <main>
 <!--SECCIÓN 1: Basado en tu última visita-->
+<nav class="ultimavisita">
+    <h2>Última Visita</h2>
 <section> 
     <figure><img src= "/images/img-cafetera-moulinex.jpg" alt ="Cafetera Moulinex"></figure>
     <p class="precio">$6.770</p>
@@ -117,12 +118,18 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
     <p class="detalleproducto">SmartTv Samsung 43"</p>
 </section>
 
+</nav><!-- Fin clase Ultima Visita-->
+
 <!--SECCIÓN 2: OFERTAS-->
+<nav class="ofertas">
+    <h2>¡¡OFERTAS!!</h2>
 <section> 
     <figure><img src= "/images/img-cafetera-moulinex.jpg" alt ="Cafetera Moulinex"></figure>
+    <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
     <p class="precio">$6.770</p>
     <p class="descuento">40% OFF</p>
     <p class="detalleproducto">Cafetera Moulinex</p>
+    
 </section>
 
 <section> 
@@ -145,6 +152,8 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
     <p class="descuento">5% of</p>
     <p class="detalleproducto">SmartTv Samsung 43"</p>
 </section>
+
+</nav><!-- Fin clase Ofertas-->
 
      </main>
 
