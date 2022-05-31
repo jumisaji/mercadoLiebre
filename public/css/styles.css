@@ -44,45 +44,31 @@ font-size: 2em;
 margin: auto;
 }
 
-footer p{
-    margin-bottom: 10px;
-}
-
-footer ol{
-    margin-bottom: 10px;
-    color: #666;
-}
-
 #credit{
     color: #1259c3;
+    font-size: 2em;
 }
-
 #gift{
     color: #1259c3;
+    font-size: 2em;
 }
-
 #security{
     color: #1259c3;
+    font-size: 2em;
 }
 
-.pagotarjeta p
-{
-    
-    color: #666;
-}
-
-.enviogratis p
-{
+footer .pagotarjeta{
     margin-bottom: 10px;
     color: #666;
 }
-
-.protegido p
-{
+footer .enviogratis{
     margin-bottom: 10px;
     color: #666;
 }
-#derechosautor{
+footer .protegido{
     margin-bottom: 10px;
-    color: #ebebeb;
+    color: #666;
+}
+footer p{
+    color: #666;  
 }
