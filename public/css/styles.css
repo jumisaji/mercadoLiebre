@@ -4,6 +4,13 @@
 header {
     background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
+    margin:auto;
+}
+
+#logo{
+text-align: center;
+margin: auto;
+
 }
 
 .buscar {
@@ -30,6 +37,12 @@ header {
     display: inline-block;
     text-align:center;
     border-radius: 8px;
+    margin-bottom: 50px;
+}
+/*      BANNER      */
+#banner figure{
+    text-align: center;
+    margin: auto;
 }
 
 
