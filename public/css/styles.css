@@ -55,7 +55,9 @@ main{
     width: 90%;
     font-family: 'Roboto', sans-serif;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+    background-color: #ebebeb;
+
 }
 
 main section{
@@ -66,8 +68,8 @@ main section{
     margin: auto;
     text-align:justify;
     color: #39b54a;
-    border: #39b54a solid 1px;
     display: block;
+    border: #39b54a solid 1px;
     padding: 5px;
     width: 30px;
     height: 30px;
@@ -76,6 +78,31 @@ main section{
     
 }
 
+.producto {
+background-color:white;
+border: #ebebeb solid 15px;
+margin: 15px, 15px, 15px, 15px;
+}
+
+.descripciongeneral{
+    
+    padding: 15px;
+    border: #ebebeb solid 1px;
+}
+
+.precio{
+    color: black;
+    margin-bottom: -10px;
+}
+
+.descuento {
+    color: #39b54a;
+    margin-bottom: 30px;
+}
+
+.detalleproducto{
+    color: #666;
+}
 
 /* **************  **************  **************  **************  **************  */
 /* **************    ESTILOS EN FOOTER Y ELEMENTOS QUE LO COMPONEN  ************** */
@@ -114,5 +141,7 @@ footer .protegido{
     color: #666;
 }
 footer p{
-    color: #666;  
+    color: #666; 
+    margin-top: 1px; 
 }
+
