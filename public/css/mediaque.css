@@ -1,0 +1,20 @@
+
+/* Estilos tomados como punto de partida, es buena práctica definirlos */*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   }
+   
+/* **************  **************  **************  **************  **************  */
+/* **************                   MEDIA QUERIES                   ************** */
+/* **************  **************  **************  **************  **************  */
+@media screen and (min-width: 361px){
+    body{ 
+        border-color: hsl (160,100%,50%);
+    }
+ }
+ 
+ @media screen and (min-width: 769px){
+    body { border-color: hsl (100,100%,50%);
+    }
+ }
