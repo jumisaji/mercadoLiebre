@@ -12,6 +12,7 @@ header {
     background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
     margin:auto;
+    font-size: 12px;
 }
 
 #logo{
@@ -63,8 +64,10 @@ main{
     font-family: 'Roboto', sans-serif;
     margin: auto;
     margin-bottom: 60px;
-    background-color: #ebebeb;
-
+    background-color: #ebebeb;        
+    }
+main h2{
+    font-size: 24px;
 }
 
 main section{
@@ -97,15 +100,18 @@ padding: 15px;
 .precio{
     color: black;
     margin-bottom: -1px;
+    font-size: 18px;
 }
 
 .descuento {
     color: #39b54a;
     margin-bottom: 30px;
+    font-size: 1em;
 }
 
 .detalleproducto{
     color: #666;
+    font-size: 16px;
 }
 
 main {
@@ -119,7 +125,7 @@ main {
 footer {
 text-align: center;
 font-family: 'Roboto', sans-serif;
-font-size: 2em;
+font-size: 12px;
 margin: auto;
 }
 
@@ -151,6 +157,7 @@ footer .protegido{
 footer p{
     color: #666; 
     margin-top: 1px; 
+    font-size: 12px;
 }
 
 #derechosautor{
