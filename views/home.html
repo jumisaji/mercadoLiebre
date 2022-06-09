@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Etiqueta para configurar media queries-->
 
     <title>Mercado Liebre</title>
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseño -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseño -->
 
     <!-- LINKS  FUENTE ROBOTO-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,8 +18,8 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
 <link rel="stylesheet" href="./css/styles.css"> <!--Llamo documento en CSS que contiene los estilos definidos -->
 <link rel="stylesheet" href="./css/mediaque.css"> <!--Llamo documento CSS que contiene los estilos de media queries -->
 
-
 </head>
+
 
 <body>
     <!-- HEADER --> <!-- Header contiene, logo, secciones de busqueda, compra y opciones con listas-->
@@ -30,24 +29,26 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
              <nav id="logo"><figure><img src= "/images/logo-mercado-liebre.svg" alt ="Logo de Mercado Liebre"></figure></nav>
             </nav>
     
-    <!--SECCIÓN DE BUSQUEDA-->
-<section>
-    
-     <nav class="buscar"> 
-        <h3>Lugar para poner la barra de búsqueda <i class="fa-solid fa-magnifying-glass"></i></h3>
-     </nav>
+<!--SECCIÓN DE BUSQUEDA-->
+<section class="barrabuscar">
+            <!-- <h2>Lugar para poner la barra de búsqueda</h2>  -->
+            <nav class="buscar"> 
+               <h2><input  type="barra de busqueda" name="Caja de busqueda" placeholder="Buscar productos, marcas..."> <i class="fa-solid fa-magnifying-glass"></i></h2>
+            </nav>
+</section>
 
-<!-- BARRA DE NAVEGACIÓN CON OPCIONES -->
-<section>
+<!--SECCIÓN FORMA DE PAGO -->
+
+<section class="formapago">
     <nav class="pagar">
     <p> <h3><i class="fa-solid fa-hand-holding-dollar"></i><b>Compra en cuotas y sin tarjeta de crédito</b></h3></p>
     </nav>
 </section>
     
-</section>
+<!-- BARRA DE NAVEGACIÓN CON OPCIONES -->
 
 <!-- SECCIÓN Lista opciones 1 -->
-<section>
+<section class="lista1">
     <nav class="opciones1">
     <ul>
         <li><a href ="">Tiendas Oficiales</a></li>
@@ -57,8 +58,9 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
     </ul>
 </nav>
 </section>
+
 <!-- SECCIÓN Lista opciones 2 -->
-<section>
+<section class="lista2">
     <nav class="opciones2">
     <ul>
         <li><a href = "">Crea tu cuenta</a> <i class="fa-solid fa-address-card"></i></li>
@@ -70,11 +72,11 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
 
 <!--  MENÚ TIPO HAMBURGUESA -->
 
-<nav class="burger-menu">
+<section class="burger-menu">
 <nav id="menu">
     <a href  =""><i class="fas fa-bars"></i></a>
 </nav>
-</nav>
+</section>
 
     </header>
     
@@ -86,11 +88,13 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
 
      <!-- MAIN  --> <!-- Contiene los productos en dos secciones-->
      <main>
-<!--SECCIÓN 1: Basado en tu última visita-->
-<nav class="ultimavisita">
-    <h2>Última Visita</h2>
 
-<section class="producto">  
+<!--SECCIÓN 1: Basado en tu última visita-->
+
+<section class="ultimavisita">
+   <nav id="visitado"><h2>Basado en tu Última Visita</h2></nav> 
+
+<article class="producto">  
     <figure><img src= "/images/img-cafetera-moulinex.jpg" alt ="Cafetera Moulinex"></figure>
     <nav class="descripciongeneral">
         <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
@@ -98,9 +102,9 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
         <p class="descuento">40% OFF</p>
         <p class="detalleproducto">Cafetera Moulinex</p>
     </nav>
-</section>
+</article>
 
-<section class="producto"> 
+<article class="producto"> 
     <figure><img src= "/images/img-macbook-pro-2019.jpg" alt ="Macbook Pro 2019"></figure>
     <nav class="descripciongeneral">
     <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
@@ -108,9 +112,9 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
         <p class="descuento">20% of</p>
         <p class="detalleproducto">MacBook Pro 2019</p>
     </nav>
-</section>
+</article>
 
-<section class="producto"> 
+<article class="producto"> 
     <figure><img src= "/images/img-samsung-galaxy-s10.jpg" alt ="Samsung Galaxy S10"></figure>
     <nav class="descripciongeneral">
     <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
@@ -118,9 +122,9 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
         <p class="descuento">10% of</p>
         <p class="detalleproducto">Samsung Galaxy S10</p>
     </nav>
-</section>
+</article>
 
-<section class="producto"> 
+<article class="producto"> 
     <figure><img src= "/images/img-tv-samsung-smart.jpg" alt ="Smart TV Samsung"></figure>
    <nav class="descripciongeneral">
     <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
@@ -128,14 +132,15 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
         <p class="descuento">5% of</p>
         <p class="detalleproducto">SmartTv Samsung 43"</p>
     </nav> 
-</section>
+</article>
 
-</nav><!-- Fin clase Ultima Visita-->
+</section><!-- Fin clase Ultima Visita-->
 
 <!--SECCIÓN 2: OFERTAS-->
-<nav class="ofertas">
-    <h2>¡¡OFERTAS!!</h2>
-<section class="producto"> 
+<section class="ofertas">
+<nav id="ofertado"><h2>¡¡OFERTAS!!</h2></nav>
+
+<article class="producto"> 
     <figure><img src= "/images/img-cafetera-moulinex.jpg" alt ="Cafetera Moulinex"></figure>
     <nav class="descripciongeneral">
     <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
@@ -143,9 +148,9 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
         <p class="descuento">40% OFF</p>
         <p class="detalleproducto">Cafetera Moulinex</p>
 </nav>
-</section>
+</article>
 
-<section class="producto"> 
+<article class="producto"> 
     <figure><img src= "/images/img-macbook-pro-2019.jpg" alt ="Macbook Pro 2019"></figure>
     <nav class="descripciongeneral">
         <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
@@ -153,9 +158,9 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
         <p class="descuento">20% of</p>
         <p class="detalleproducto">MacBook Pro 2019</p>
 </nav>
-</section>
+</article>
 
-<section class="producto"> 
+<article class="producto"> 
     <figure><img src= "/images/img-samsung-galaxy-s10.jpg" alt ="Samsung Galaxy S10"></figure>
     <nav class="descripciongeneral">
     <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
@@ -163,9 +168,9 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
         <p class="descuento">10% of</p>
         <p class="detalleproducto">Samsung Galaxy S10</p>
 </nav>
-</section>
+</article>
 
-<section class="producto"> 
+<article class="producto"> 
     <figure><img src = "/images/img-tv-samsung-smart.jpg" alt ="Smart TV Samsung"></figure>
     <nav class="descripciongeneral">
         <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
@@ -173,44 +178,37 @@ rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseñ
         <p class="descuento">5% of</p>
         <p class="detalleproducto">SmartTv Samsung 43"</p>
     </nav>
-</section>
+</article>
 
-</nav><!-- Fin clase Ofertas-->
+</section><!-- Fin clase Ofertas-->
 
      </main>
 
 
      <!-- FOOTER o pie de página -->
      <footer>
+
 <section>
     <nav class="pagotarjeta">
-        <nav id="credit">
-    <i class="fa-solid fa-credit-card"></i>
-</nav>
-<b>Paga con tarjeta o en efectivo </b>
-    <p> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+        <nav id="credit"><i class="fa-solid fa-credit-card"></i></nav>
+        <b>Paga con tarjeta o en efectivo </b>
+        <p> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
     </nav>
 </section>
 
 <section>
     <nav class="enviogratis">
-    <nav id="gift">
-        <i class="fa-solid fa-gift"></i>
-    </nav>
-    <b>Envío gratis desde $ 2.500</b>
-    <p> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
-        productos. Es un beneficio de Mercado Puntos.</p>
+        <nav id="gift"><i class="fa-solid fa-gift"></i></nav>
+        <b>Envío gratis desde $ 2.500</b>
+        <p> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
     </nav>
 </section>
 
 <section>
     <nav class="protegido">
-    <nav id="security">
-        <i class="fa-solid fa-user-shield"></i>
-    </nav>
-    <b>Seguridad, de principio a fin</b>
-    <p> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
-        porque estás siempre protegid@.</p>
+        <nav id="security"><i class="fa-solid fa-user-shield"></i></nav>
+        <b>Seguridad, de principio a fin</b>
+        <p> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
     </nav> 
 </section>
 
