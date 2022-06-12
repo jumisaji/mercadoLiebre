@@ -17,6 +17,47 @@
     main {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#opciones1 ul, #opciones2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+   
+}
+
+.items1 li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    height: 20px;
+ 
+}
+
+.items2 li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-right: 30px;
+    height: 20px;
+
+ 
+}
+
  .ultimavisita{
         display: flex;
         flex-wrap: wrap;
@@ -26,6 +67,11 @@
         display: flex;
         flex-wrap: wrap;
        
+    }
+    .producto {
+        width: auto;
+        margin: auto;
+        text-align: center;
     }
 
 
@@ -41,6 +87,8 @@ main .detalleproducto {
 
 .lista1, .lista2{
     display: flex;
+    flex-wrap: wrap;
+    
 }
 
 
@@ -59,16 +107,19 @@ main .detalleproducto {
        
     }
 
-    .ultimavisita{
+
+    .ultimavisita , .detalleproducto{
         display: flex;
         flex-wrap: wrap;
        
     }
 
-     .detalleproducto {
-    display: flex;
-    flex-wrap: wrap;
+    .producto {
+        width: 200px;
+        text-align: center;
+    
     }
+
     
     .burger-menu {
     display: none;
@@ -76,7 +127,16 @@ main .detalleproducto {
 
     .lista1, .lista2{
         display: flex;
+        flex-direction: row;
     }
 
+    footer{
+        display: flex;
+        margin: 10px;
+    }
+
+    img {
+        width: 90%;
+    }
    
  }

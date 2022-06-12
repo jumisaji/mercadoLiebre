@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" /> <!--LINK para acceder a iconos  creados por equipo de diseño -->
+
+    <!-- LINKS  FUENTE ROBOTO-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./css/styles.css"> <!--Llamo documento en CSS que contiene los estilos definidos -->
+<link rel="stylesheet" href="./css/mediaque.css"> <!--Llamo documento CSS que contiene los estilos de media queries -->
+
+</head>
+
+<!--    ****************************************************************************************************************    -->
+<!--    ****************************************************************************************************************    -->
+<!--    **************************************************   BODY   ****************************************************    -->
+<!--    ****************************************************************************************************************    -->
+                            <!--    BODY CONTIENE TODO LO QUE VISUALIZO EN MI NAVEGADOR   -->
+<body>
+
+                <!--  **********************  -->
+                <!--          HEADER          --> 
+                <!--  **********************  -->
+<header>
+    <!-- Header contiene, logo, secciones de busqueda, pago y 2 opciones de navegación con listas-->
+    <header>  
+        <nav class="encabezado">
+            <nav id="logo"><!-- LOGO -->
+                <figure>
+                    <a href=""><img src= "/images/logo-mercado-liebre.svg" alt ="Logo de Mercado Liebre"></a>
+               </figure>
+           </nav>
+           </nav>
+   
+<!--   SECCIÓN DE BUSQUEDA   -->
+<section class="barrabuscar">
+           <nav id="buscar"> <!--  barra de búsqueda  -->
+              <input  type="barra de busqueda" name="Caja de busqueda" placeholder="Buscar productos, marcas..."> 
+              <i class="fa-solid fa-magnifying-glass"></i>
+           </nav>
+</section>
+
+<!--   SECCIÓN FORMA DE PAGO  -->
+<section class="formapago">
+   <nav id="pagar">
+   <h3>
+       <a href=""><i class="fa-solid fa-hand-holding-dollar"></i><b>Compra en cuotas y sin tarjeta de crédito</b></a>
+   </h3>
+   </nav>
+</section>
+
+<!--  ******************************  -->
+<!-- BARRA DE NAVEGACIÓN CON OPCIONES -->
+<!--  ******************************  -->
+
+<!-- SECCIÓN Lista opciones 1 -->
+<section class="lista1">
+   <nav id="opciones1">
+   <ul>
+       <li><a href ="">Tiendas Oficiales</a></li>
+       <li><a href ="">Vender</a></li>
+       <li><a href ="">Ofertas</a></li>
+       <li><a href ="">Ayuda</a></li>
+   </ul>
+</nav>
+</section>
+
+<!-- SECCIÓN Lista opciones 2 -->
+<section class="lista2">
+   <nav id="opciones2">
+   <ul>
+       <li><a href = "">Crea tu cuenta <i class="fa-solid fa-address-card"></i></a></li>
+       <li><a href = "">Ingresa <i class="fa-solid fa-right-to-bracket"></i></a></li>
+       <li><a href = "">Mis Compras <i class="fa-solid fa-cart-shopping"></i></a></li> 
+   </ul>
+</nav>
+</section>
+
+<!--  ********************  -->
+<!--  MENÚ TIPO HAMBURGUESA -->
+<!--  ********************  -->
+<section class="burger-menu">
+<nav id="menu">
+   <a href  =""><i class="fas fa-bars"></i></a>
+</nav>
+</section>
+</header>
+
+            <!--    **********    -->
+            <!--       MAIN       -->
+            <!--    **********    -->
+<!--Este Main contiene la información del formulario de registro-->
+<main>
+
+    <form action="/register.html" method="POST">
+
+        <label for="firstname">
+            <input type="text" name="fullname" class="inputregistro" placeholder="Nombre y apellido" minlength="3">
+        </label>
+        
+        <label for="apodo">
+            <input type="text" name="nickname" class="imputregistro" placeholder="Nombre de usuario" minlength="3"> 
+        </label>
+
+        <label for="fechanacimiento">Fecha de Nacimiento</label>
+            <input type="date" name="" class="imputregistro" placeholder="Fecha de Nacimiento">
+
+        <label for="domicilio">Domicilio</label>
+            <input type="radio" name="vivienda" class="imputregistro" placeholder="Dirección de Domicilio">
+
+        <label for="Perfil">Domicilio</label>
+            <input type="" name="comprador"> Comprador
+            <input type="" name="vendedor"> Vendedor
+            
+            
+            <label for="">Categoías de Interés
+                <input type="checkbox" value="" name="">Electro
+                <input type="checkbox" value="" name="">Moda
+                <input type="checkbox" value="" name="">Hogar
+                <input type="checkbox" value="" name="">Juguetería
+                <input type="checkbox" value="" name="">Vida Sana
+            </label>
+
+            <label for="fotousuario">Foto de Usuario</label>
+                <input type="file" name="avatar"> 
+
+            <label for="clave"></label>
+                <input type="password" name="pass" class="inputregistro" placeholder="contraseña">
+
+            <label for="confirmar"></label>
+                <input type="password" name="pass" class="inputregistro" placeholder="Confirmar contraseña">
+
+            <button type="submit">Enviar</button>
+            
+            <button type="reset">Borrar</button>
+
+
+    </form>
+
+</main>
+
+
+            <!--    ***********************    -->
+            <!--     FOOTER o pie de página    -->
+            <!--    ***********************    -->
+<footer>
+
+    <section>
+        <nav class="pagotarjeta">
+            <nav id="credit"><i class="fa-solid fa-credit-card"></i></nav>
+            <b>Paga con tarjeta o en efectivo </b>
+            <p> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+        </nav>
+    </section>
+    
+    <section>
+        <nav class="enviogratis">
+            <nav id="gift"><i class="fa-solid fa-gift"></i></nav>
+            <b>Envío gratis desde $ 2.500</b>
+            <p> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+        </nav>
+    </section>
+    
+    <section>
+        <nav class="protegido">
+            <nav id="security"><i class="fa-solid fa-user-shield"></i></nav>
+            <b>Seguridad, de principio a fin</b>
+            <p> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+        </nav> 
+    </section>
+    
+    <section>
+        <nav id="derechosautor"><p><i>Copyright © 1999-2020 MercadoLiebre S.R.L</i></p>
+        </nav>
+    </section>
+
+</footer>
+    
+</body>
+</html>

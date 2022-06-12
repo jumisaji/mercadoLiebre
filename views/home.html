@@ -20,37 +20,51 @@
 
 </head>
 
-
+<!--    ****************************************************************************************************************    -->
+<!--    ****************************************************************************************************************    -->
+<!--    **************************************************   BODY   ****************************************************    -->
+<!--    ****************************************************************************************************************    -->
+                            <!--    BODY CONTIENE TODO LO QUE VISUALIZO EN MI NAVEGADOR   -->
 <body>
-    <!-- HEADER --> <!-- Header contiene, logo, secciones de busqueda, compra y opciones con listas-->
+
+                <!--  **********************  -->
+                <!--          HEADER          --> 
+                <!--  **********************  -->
+    <!-- Header contiene, logo, secciones de busqueda, pago y 2 opciones de navegación con listas-->
      <header>  
          <nav class="encabezado">
-             <!-- LOGO -->
-             <nav id="logo"><figure><img src= "/images/logo-mercado-liebre.svg" alt ="Logo de Mercado Liebre"></figure></nav>
+             <nav id="logo"><!-- LOGO -->
+                 <figure>
+                     <a href=""><img src= "/images/logo-mercado-liebre.svg" alt ="Logo de Mercado Liebre"></a>
+                </figure>
+            </nav>
             </nav>
     
-<!--SECCIÓN DE BUSQUEDA-->
+<!--   SECCIÓN DE BUSQUEDA   -->
 <section class="barrabuscar">
-            <!-- <h2>Lugar para poner la barra de búsqueda</h2>  -->
-            <nav class="buscar"> 
-               <h2><input  type="barra de busqueda" name="Caja de busqueda" placeholder="Buscar productos, marcas..."> <i class="fa-solid fa-magnifying-glass"></i></h2>
+            <nav id="buscar"> <!--  barra de búsqueda  -->
+               <input  type="search" name="Barra de busqueda" placeholder="Buscar productos, marcas..."> 
+               <i class="fa-solid fa-magnifying-glass"></i>
             </nav>
 </section>
 
-<!--SECCIÓN FORMA DE PAGO -->
-
+<!--   SECCIÓN FORMA DE PAGO  -->
 <section class="formapago">
-    <nav class="pagar">
-    <p> <h3><i class="fa-solid fa-hand-holding-dollar"></i><b>Compra en cuotas y sin tarjeta de crédito</b></h3></p>
+    <nav id="pagar">
+    <h3>
+        <a href=""><i class="fa-solid fa-hand-holding-dollar"></i><b>Compra en cuotas y sin tarjeta de crédito</b></a>
+    </h3>
     </nav>
 </section>
-    
+
+<!--  ******************************  -->
 <!-- BARRA DE NAVEGACIÓN CON OPCIONES -->
+<!--  ******************************  -->
 
 <!-- SECCIÓN Lista opciones 1 -->
 <section class="lista1">
-    <nav class="opciones1">
-    <ul>
+    <nav id="opciones1">
+    <ul class="items1">
         <li><a href ="">Tiendas Oficiales</a></li>
         <li><a href ="">Vender</a></li>
         <li><a href ="">Ofertas</a></li>
@@ -61,17 +75,18 @@
 
 <!-- SECCIÓN Lista opciones 2 -->
 <section class="lista2">
-    <nav class="opciones2">
-    <ul>
-        <li><a href = "">Crea tu cuenta</a> <i class="fa-solid fa-address-card"></i></li>
-        <li><a href = "">Ingresa</a> <i class="fa-solid fa-right-to-bracket"></i></li>
-        <li><a href = "">Mis Compras</a> <i class="fa-solid fa-cart-shopping"></i></i></li> 
+    <nav id="opciones2">
+    <ul class="items2">
+        <li><a href = "">Crea tu cuenta <i class="fa-solid fa-address-card"></i></a></li>
+        <li><a href = "">Ingresa <i class="fa-solid fa-right-to-bracket"></i></a></li>
+        <li><a href = "">Mis Compras <i class="fa-solid fa-cart-shopping"></i></a></li> 
     </ul>
 </nav>
 </section>
 
+<!--  ********************  -->
 <!--  MENÚ TIPO HAMBURGUESA -->
-
+<!--  ********************  -->
 <section class="burger-menu">
 <nav id="menu">
     <a href  =""><i class="fas fa-bars"></i></a>
@@ -79,115 +94,119 @@
 </section>
 
     </header>
-    
-    <!--      SECCIÓN BANNER      -->
+
+            <!--  **********************  -->
+            <!--      SECCIÓN BANNER      -->
+            <!--  **********************  -->
 <section class="homebanner">
     <nav id="banner"><figure><img src= "/images/img-home-banner.jpg" alt ="Banner"></figure></nav>
 </section>
 
-
-     <!-- MAIN  --> <!-- Contiene los productos en dos secciones-->
+            <!--    **********    -->
+            <!--       MAIN       -->
+            <!--    **********    -->
+<!-- Main Contiene los productos o articulos en dos secciones-->
      <main>
 
 <!--SECCIÓN 1: Basado en tu última visita-->
-
 <section class="ultimavisita">
-   <nav id="visitado"><h2>Basado en tu Última Visita</h2>
+   <nav id="visitado"><h2>Basado en tu Última Visita</h2></nav>
 
 <article class="producto">  
     <figure><img src= "/images/img-cafetera-moulinex.jpg" alt ="Cafetera Moulinex"></figure>
-    <nav class="descripciongeneral">
+    <section class="descripciongeneral">
         <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
         <p class="precio">$6.770</p>
         <p class="descuento">40% OFF</p>
         <p class="detalleproducto">Cafetera Moulinex</p>
-    </nav>
+    </section>
 </article>
 
 <article class="producto"> 
     <figure><img src= "/images/img-macbook-pro-2019.jpg" alt ="Macbook Pro 2019"></figure>
-    <nav class="descripciongeneral">
-    <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
+    <section class="descripciongeneral">
+        <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
         <p class="precio">$230.000</p>
         <p class="descuento">20% of</p>
         <p class="detalleproducto">MacBook Pro 2019</p>
-    </nav>
+    </section>
 </article>
 
 <article class="producto"> 
     <figure><img src= "/images/img-samsung-galaxy-s10.jpg" alt ="Samsung Galaxy S10"></figure>
-    <nav class="descripciongeneral">
+    <section class="descripciongeneral">
     <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
         <p class="precio">$70.500</p>
         <p class="descuento">10% of</p>
         <p class="detalleproducto">Samsung Galaxy S10</p>
-    </nav>
+    </section>
 </article>
 
 <article class="producto"> 
     <figure><img src= "/images/img-tv-samsung-smart.jpg" alt ="Smart TV Samsung"></figure>
-   <nav class="descripciongeneral">
+   <section class="descripciongeneral">
     <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
         <p class="precio">$23.200</p>
         <p class="descuento">5% of</p>
         <p class="detalleproducto">SmartTv Samsung 43"</p>
-    </nav> 
+   </section> 
 </article>
 
-</nav> 
 </section><!-- Fin clase Ultima Visita-->
+
+<!--    ------------------------------------------------------------------------------------------   -->
 
 <!--SECCIÓN 2: OFERTAS-->
 <section class="ofertas">
-<nav id="ofertado"><h2>¡¡OFERTAS!!</h2>
+<nav id="ofertado"><h2>¡¡OFERTAS!!</h2></nav>
 
 <article class="producto"> 
     <figure><img src= "/images/img-cafetera-moulinex.jpg" alt ="Cafetera Moulinex"></figure>
-    <nav class="descripciongeneral">
+    <section class="descripciongeneral">
     <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
         <p class="precio">$6.770</p>
         <p class="descuento">40% OFF</p>
         <p class="detalleproducto">Cafetera Moulinex</p>
-</nav>
+    </section>
 </article>
 
 <article class="producto"> 
     <figure><img src= "/images/img-macbook-pro-2019.jpg" alt ="Macbook Pro 2019"></figure>
-    <nav class="descripciongeneral">
+    <section class="descripciongeneral">
         <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
         <p class="precio">$230.000</p>
         <p class="descuento">20% of</p>
         <p class="detalleproducto">MacBook Pro 2019</p>
-</nav>
+    </section>
 </article>
 
 <article class="producto"> 
     <figure><img src= "/images/img-samsung-galaxy-s10.jpg" alt ="Samsung Galaxy S10"></figure>
-    <nav class="descripciongeneral">
+    <section class="descripciongeneral">
     <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
         <p class="precio">$70.500</p>
         <p class="descuento">10% of</p>
         <p class="detalleproducto">Samsung Galaxy S10</p>
-</nav>
+    </section>
 </article>
 
 <article class="producto"> 
     <figure><img src = "/images/img-tv-samsung-smart.jpg" alt ="Smart TV Samsung"></figure>
-    <nav class="descripciongeneral">
+    <section class="descripciongeneral">
         <nav id="camionenvio"><i class="fa-solid fa-truck"></i></nav>
         <p class="precio">$23.200</p>
         <p class="descuento">5% of</p>
         <p class="detalleproducto">SmartTv Samsung 43"</p>
-    </nav>
+    </section>
 </article>
 
-</nav>
 </section><!-- Fin clase Ofertas-->
 
      </main>
 
-
-     <!-- FOOTER o pie de página -->
+            <!--    ***********************    -->
+            <!--     FOOTER o pie de página    -->
+            <!--    ***********************    -->
      <footer>
 
 <section>
@@ -220,5 +239,6 @@
 </section>
 
      </footer>
+
 </body>
 </html>
