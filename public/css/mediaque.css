@@ -60,6 +60,17 @@ width: 30%;
     flex-grow: 1;
 }
 
+.detalleproducto{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 5px;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+
+}
+
 /* Desktops*/
 @media screen and (min-width: 769px){
 .producto {
@@ -91,6 +102,7 @@ width: 30%;
         flex-flow: row wrap;
         justify-content: space-between  
     }
+
      #opciones2 a{
          padding: 15px;
      }
@@ -99,6 +111,7 @@ width: 30%;
     justify-content: space-around;
     width: 33%;
     }
+
     #buscar input{ 
         width: 15rem;
         height: 1rem;
@@ -116,6 +129,14 @@ width: 30%;
     flex-grow: 1;
 
 }
+
+.detalleproducto{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    flex-direction: column;
+}
+
 
 
 }

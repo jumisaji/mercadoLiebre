@@ -116,10 +116,12 @@ main{
 .descripciongeneral{  
     padding: 15px;
     border-top: #ebebeb solid 1px;
+    display: flex;
  } 
  
- .camionenvio {
-    text-align:end;
+ 
+ main article section .camionenvio {
+    text-align: right;
     color: #39b54a;
     display: block;
     border: #39b54a solid 1px;
@@ -128,8 +130,8 @@ main{
     width: 30px;
     height: 30px;
     font-size: 16px;
-    border-radius: 50%; 
-   
+    border-radius: 50%;   
+
 }
 
 .producto img{
@@ -146,6 +148,20 @@ main{
 
 .detalleproducto{
      display: none;
+}
+
+.precio{
+    color: black;
+    font-size: 18px;
+    flex-flow: row wrap;
+    width: 30%;
+}
+
+.descuento {
+    color: #39b54a;
+    font-size: 1rem;
+    flex-flow: row wrap;
+    width: 70%;
 }
 /* **************  **************  **************  **************  **************  */
 /* **************    ESTILOS EN FOOTER Y ELEMENTOS QUE LO COMPONEN  ************** */
