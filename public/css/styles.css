@@ -1,13 +1,12 @@
 /* Estilos tomados como punto de partida, es buena práctica definirlos */
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     border:0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    
-   }
+}
    
 /* **************  **************  **************  **************  **************  */
 /* **************   ESTILOS EN HEADER Y ELEMENTOS QUE LO COMPONEN   ************** */
@@ -16,111 +15,108 @@ header {
     background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
     padding: 5px;
-    margin:0;
     font-size: 12px;
-    width: 50%;   
+    max-width:100%;  
 }
-
 .encabezado{
-
     display: flex;
     flex-flow: row wrap;
-    flex-wrap:wrap;
-    align-items: flex-start;
 }
 
-#logo{
-text-align: justify;
-padding-top: 1rem;
-margin: 0;
-width: 50%;
-
+#logo {
+    margin: 20px 50px 20px 10px;
+    width: 60%;
 }
 
-#buscar {
-    padding: 10px;
+#buscar{
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    color: #03264C;
     text-align: center;
-    margin: auto;
-    order:0;
-    flex-grow: 50%;
+}
+
+#buscar input{ 
+    background-color: white;
+    width: 12rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+}
     
+#pagar{
+    padding: 10px 20px;
 }
 
-#pagar { 
-    padding: 10px;
+#pagar a h3{
+    color: #03264C;
     text-align: center;
-    margin: auto;
+}
+
+.op {
+    text-align: center;
+}
+
+#opciones1 , #opciones2{
+    display: none;
+}
+
+#burguerMenu{
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
-    
 }
 
-#menu{
-    text-align: center;
-    margin: auto;  
-}
-
-.burger-menu a {
+#burguerMenu a i{
+    text-align:  center;
     background-color: #1259c3;
-    color:white;
+    color: white;
+    font-size: 21px;
     width: 50px;
-    height:40px;
+    height: 40px;
     line-height: 40px;
-    display: inline-block;
-    text-align:center;
     border-radius: 8px;
-    margin-bottom: 50px;
-
 }
-
-.lista1, .lista2 {
-    display: none;
-    justify-content: space-around;
-    text-align: center;
-}
-
  
 /*      BANNER      */
-#banner figure img {
-
-    box-sizing: border-box;
-    display: flex;
-    width: 50%;
-    
+#banner {
+    margin: 0;
+    padding: 0;
 }
 
+#banner img {
+    width: 100%;
+}
 
 /* **************  **************  **************  **************  **************  */
 /* **************     ESTILOS EN MAIN Y ELEMENTOS QUE LO COMPONEN   ************** */
 /* **************  **************  **************  **************  **************  */
-
 main{
+    background-position: right;
     text-align: center;
-    width: 50%;
     font-family: 'Roboto', sans-serif;
-    border: 0;
-    margin-bottom: 60px;
-    background-color: #ebebeb;        
-    
-    }
-
-main nav h2{
-    color: #666;
-    padding-top: 0.5rem;
-    font-size: 24px;
-    padding-bottom: 1rem;
-    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    background-color: #ebebeb;
+    margin-left: 5%;  
+    margin-right: 5%;  
 }
 
-
-main article{
-    margin-bottom: 10px;
+.producto{
     text-align: justify;
     display: inline-block;
-    padding: 1rem;    
+    background-color:white;
+    border: #ebebeb solid 10px;
+    width: 100%;
 }
 
-#camionenvio {
+.descripciongeneral{  
+    padding: 15px;
+    border-top: #ebebeb solid 1px;
+ } 
+ 
+ .camionenvio {
     text-align:end;
     color: #39b54a;
     display: block;
@@ -134,60 +130,27 @@ main article{
    
 }
 
+.producto img{
 
-.producto {
-background-color:white;
-border: #ebebeb solid 15px;
-padding: 15px;
-width: 90%;
-
-} 
-
-.descripciongeneral{  
-   padding: 15px;
-   border-top: #ebebeb solid 1px;
-} 
-
-.precio{
-    color: black;
-    margin-bottom: -1px;
-    font-size: 18px;
-    display: flex;
-    flex-grow: 30%;
-}
-
-.descuento {
-    color: #39b54a;
-    margin-bottom: 30px;
-    font-size: 1rem;
-    display: flex;
-    flex-grow: 70%;
-}
-
-.detalleproducto{
-    color: #666;
-    font-size: 16px;
-    display: none;
-}
-
-.producto figure img{
-    display: flex;
-    margin: auto;
     width: 90%;
 }
 
-
-
-
+#visitado , #ofertado{
+    padding: 5px;
+    color: #666;    
+    text-align: center;
+    font-size: 24px;
+}
 /* **************  **************  **************  **************  **************  */
 /* **************    ESTILOS EN FOOTER Y ELEMENTOS QUE LO COMPONEN  ************** */
 /* **************  **************  **************  **************  **************  */
 
 footer {
-text-align: center;
-font-family: 'Roboto', sans-serif;
-font-size: 12px;
-margin: auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
 }
 
 #credit{
