@@ -4,11 +4,60 @@
 
 /*Tablets*/
 @media screen and (min-width: 361px){ 
-     .producto {
-         box-shadow: 0px 0px 10px rgb(100, 100, 100);
- 
+    .producto{
+         box-shadow: 0px 0px 10px rgb(100, 100, 100); /*https://www.cssmatic.com/box-shadow*/
+        }
+
+.op {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; 
+}
+
+#burgerMenu{
+    display: none;
+}
+
+#opciones1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+       
+}
+
+#opciones1 a{
+    padding: 15px;
+}
+
+#opciones2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between  
+}
+ #opciones2 a{
+     padding: 15px;
  }
 
+#logo, #buscar{
+justify-content: space-around;
+width: 30%;
+}
+#buscar input{ 
+    width: 7rem;
+    height: 1rem;
+}
+    
+#pagar{
+    padding: 5px;
+    margin: 20px 1px 10px 1px;
+    width: 38%;
+}
+
+.producto {
+    width: 40%;
+    margin: 15px;
+    text-align: center;
+    flex-grow: 1;
 }
 
 /* Desktops*/
@@ -16,4 +65,57 @@
 .producto {
      box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+    .op {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between; 
+    }
+    
+    #burgerMenu{
+        display: none;
+    }
+    
+    #opciones1 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+           
+    }
+    
+    #opciones1 a{
+        padding: 15px;
+    }
+    
+    #opciones2 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between  
+    }
+     #opciones2 a{
+         padding: 15px;
+     }
+    
+    #logo, #buscar, #pagar{
+    justify-content: space-around;
+    width: 33%;
+    }
+    #buscar input{ 
+        width: 15rem;
+        height: 1rem;
+    }
+        
+    #pagar{
+        margin: 20px 0px 10px 0px;
+    }
+
+    
+.producto {
+    width: 20%;
+    margin: 12px;
+    text-align: center;
+    flex-grow: 1;
+
+}
+
+
 }

@@ -21,16 +21,18 @@ header {
 .encabezado{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 #logo {
-    margin: 20px 50px 20px 10px;
-    width: 60%;
+    margin: 20px 0px 20px 0px;
+    width: 50%;
 }
 
 #buscar{
-    padding: 10px 20px;
-    width: 100%;
+    padding: 5px;
+    margin: 20px 0px 20px 0px;
+    width: 50%;
     height: 100%;
     color: #03264C;
     text-align: center;
@@ -38,15 +40,15 @@ header {
 
 #buscar input{ 
     background-color: white;
-    width: 12rem;
+    width: 8rem;
     height: 2rem;
-    text-align: center;
     line-height: 40px;
     border-radius: 8px;
 }
     
 #pagar{
-    padding: 10px 20px;
+    padding: 10px 10px;
+    margin: 10px 0px 10px 0px;
 }
 
 #pagar a h3{
@@ -62,13 +64,13 @@ header {
     display: none;
 }
 
-#burguerMenu{
+#burgerMenu{
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
 }
 
-#burguerMenu a i{
+#burgerMenu a i{
     text-align:  center;
     background-color: #1259c3;
     color: white;
@@ -99,16 +101,16 @@ main{
     margin-top: -5px;
     margin-bottom: 30px;
     background-color: #ebebeb;
-    margin-left: 5%;  
-    margin-right: 5%;  
+    padding: 10px;
 }
 
 .producto{
     text-align: justify;
     display: inline-block;
     background-color:white;
-    border: #ebebeb solid 10px;
+    border: #ebebeb solid 1px;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .descripciongeneral{  
@@ -136,10 +138,14 @@ main{
 }
 
 #visitado , #ofertado{
-    padding: 5px;
+    padding: 8px;
     color: #666;    
     text-align: center;
     font-size: 24px;
+}
+
+.detalleproducto{
+     display: none;
 }
 /* **************  **************  **************  **************  **************  */
 /* **************    ESTILOS EN FOOTER Y ELEMENTOS QUE LO COMPONEN  ************** */
