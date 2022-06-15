@@ -1,4 +1,6 @@
 /* Estilos tomados como punto de partida, es buena práctica definirlos */
+/* (*) Indica al selector universal */
+/* Esta hoja de estilos recoje los parámetros de estilo aplicados teniendo en cuenta formato ***FIRST MOBILE*** */
 *{
     margin: 0;
     padding: 0;
@@ -7,19 +9,19 @@
     text-decoration: none;
     list-style: none;
 }
-   
+
 /* **************  **************  **************  **************  **************  */
 /* **************   ESTILOS EN HEADER Y ELEMENTOS QUE LO COMPONEN   ************** */
 /* **************  **************  **************  **************  **************  */
+
 header {
     background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
     padding: 5px;
     font-size: 12px;
     width:100%;  
-
-
 }
+
 .encabezado{
     display: flex;
     flex-flow: row wrap;
@@ -103,6 +105,7 @@ header {
 /* **************  **************  **************  **************  **************  */
 /* **************     ESTILOS EN MAIN Y ELEMENTOS QUE LO COMPONEN   ************** */
 /* **************  **************  **************  **************  **************  */
+
 main{
     background-position: right;
     text-align: center;
@@ -129,8 +132,7 @@ main{
     position: relative;
     flex-flow:  row wrap;
  } 
- 
- 
+
 .camionenvio {
     text-align: right;
     color: #39b54a;
@@ -158,10 +160,6 @@ main{
     font-size: 24px;
 }
 
-.detalleproducto{
-     display: none;
-}
-
 .precio{
     color: black;
     font-size: 18px;
@@ -177,6 +175,10 @@ main{
 }
 
 .nombreproducto{
+    display: none;
+}
+
+.detalleproducto{
     display: none;
 }
 /* **************  **************  **************  **************  **************  */

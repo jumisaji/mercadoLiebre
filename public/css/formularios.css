@@ -10,6 +10,9 @@
     background-color: #cacaca;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 .login legend{
     font-size: 14px;
@@ -31,21 +34,26 @@ color: white;
 width: 50vw;
 height: 2rem;
 border-radius: 4px;
+box-shadow: 8px 8px 10px 0px rgb(100, 100, 100);
 }
 
-/* *********** */
-/* FORM LOGIN  */
-/* *********** */
+/* ************** */
+/* FORM REGISTER  */
+/* ************** */
 .registro{
     display: flex;
     flex-flow: column;
-    width: 30%;
-    height: 100%;
+    width: 30vw;
+    height: auto;
     padding: 20px 1px 20px 1px;
     margin: auto;
     background-color: #cacaca;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
 .registro legend{
@@ -53,12 +61,61 @@ border-radius: 4px;
     color: #666;
     padding: 2px;
     padding-bottom: 10px;
+}
+
+.registro fieldset {
+padding: 5px 50px;
+
+}
+
+.registro fieldset input {
+    flex-wrap: wrap;
+    width: 90%;
+    border-radius: 4px;
+}
+
+.inputreg{
+    height: 3.5vh;
+    margin-bottom: 11px;
+    padding: 8px;
+}
+.reg{
+    
+    justify-content: center;
+    width: 100%;
+}
+
+.fotouser input{
+    padding: 5px 40px 20px 40px;
+
+}
+
+#compra, #vende{
+    display: flex;
     flex-flow: row wrap;
+    padding: 7px;
+}
+
+.tipouser p{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 
-
-.registro input {
+.categorias p{
+    display: flex;
     flex-flow: row wrap;
+    justify-content: center;
+    padding: 7px;
+}
+
+
+.botonesreg button{ 
+    background-color: #1259c3;
+    color: white;
+    width: 10vw;
+    height: 2rem;
     border-radius: 4px;
+    box-shadow: 8px 8px 10px 0px rgb(100, 100, 100);
 }

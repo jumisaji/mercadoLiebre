@@ -2,93 +2,91 @@
 /* **************                   MEDIA QUERIES                   ************** */
 /* **************  **************  **************  **************  **************  */
 
-/*Tablets*/
+/* TABLETS */
 @media screen and (min-width: 620px){ 
     .producto{
          box-shadow: 0px 0px 10px 0px rgb(100, 100, 100); /*https://www.cssmatic.com/box-shadow*/
         }
 
-.op {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between; 
-}
+    .op {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between; 
+    }
 
-#burgerMenu{
-    display: none;
-}
+    #burgerMenu{
+        display: none;
+    }
 
-#opciones1 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-       
-}
+    #opciones1 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
 
-#opciones1 a{
-    padding: 15px;
-}
+    #opciones1 a{
+        padding: 15px;
+    }
 
-#opciones2 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between  
-}
- #opciones2 a{
-     padding: 15px;
- }
+    #opciones2 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between  
+    }
+    #opciones2 a{
+        padding: 15px;
+    }
 
-#logo, #buscar{
-justify-content: space-around;
-width: 30%;
-}
-#buscar input{ 
-    width: 10rem;
-    height: 1.5rem;
-}
-#buscar button{
-    border-radius: 3px;
-    padding: 3px;
-    margin: -28px;
-    background-color: white;
-}
-    
-#pagar{
-    padding: 5px;
-    margin: 20px 1px 10px 1px;
-    width: 38%;
-    font-size: 12.5px;
-}
+    #logo, #buscar{
+    justify-content: space-around;
+    width: 30%;
+    }
 
-.producto {
-    width: 40%;
-    margin: 15px;
-    text-align: center;
-    flex-grow: 1;
-}
+    #buscar input{ 
+        width: 10rem;
+        height: 1.5rem;
+    }
 
-.detalleproducto{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0px 5px;
-    font-size: 16px;
+    #buscar button{
+        border-radius: 3px;
+        padding: 3px;
+        margin: -28px;
+        background-color: white;
+    }
+        
+    #pagar{
+        padding: 5px;
+        margin: 20px 1px 10px 1px;
+        width: 38%;
+        font-size: 12.5px;
+    }
 
-}
+    .producto {
+        width: 40%;
+        margin: 15px;
+        text-align: center;
+        flex-grow: 1;
+    }
 
-.nombreproducto{
-    display: flex;
-    flex-basis: 100%;
-    justify-content: flex-start;
-    padding: 10px;
+    .detalleproducto{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px 5px;
+        font-size: 16px;
+    }
 
-}
+    .nombreproducto{
+        display: flex;
+        flex-basis: 100%;
+        justify-content: flex-start;
+        padding: 10px;
+    }
 
+}/*FIN MEDIA QUERIES TABLET*/
 
-}
-
-/* Desktops*/
+/* DESKTOPS */
 @media screen and (min-width: 1000px){
-.producto {
+    .producto {
      box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
     }
     .op {
@@ -143,27 +141,24 @@ width: 30%;
         margin: 20px 0px 10px 0px;
     }
 
-    
-.producto {
-    width: 20%;
-    margin: 12px;
-    text-align: center;
-    flex-grow: 1;
+    .producto {
+        width: 20%;
+        margin: 12px;
+        text-align: center;
+        flex-grow: 1;
+    }
 
-}
+    .detalleproducto{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+        flex-direction: column;
+    }
 
-.detalleproducto{
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 16px;
-    flex-direction: column;
-}
+    .nombreproducto{
+        display: flex;
+        flex-basis: 100%;
+        justify-content: flex-start;
+    }
 
-.nombreproducto{
-    display: flex;
-    flex-basis: 100%;
-    justify-content: flex-start;
-}
-
-
-}
+}/*FIN MEDIA QUERIES DESKTOPS */
