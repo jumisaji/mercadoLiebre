@@ -86,61 +86,62 @@
      <!--Este Main contiene la información del formulario de registro-->
      <main>
          
-         <form  class="registro" action="/register.html" method="post">
-             <legend><h2> REGÍSTRATE </h2></legend>
+         <form  class="registro" action="/register.html" method="get">
+            <fieldset class="formreg">
 
-             <fieldset class="reg">
-                <label for="firstname"></label>
-                <input type="text" name="fullname" class="inputreg" placeholder="Nombre y apellido" minlength="3">
-                
-                <label for="nickname"></label>
-                <input type="text" name="nickname" class="inputreg" placeholder="Nombre de usuario" minlength="3"> 
-                
-                <label for="fechanacimiento"><b>Fecha de Nacimiento</b></label>
-                <input type="date" name="" class="inputreg" placeholder="Fecha Nacimiento">
-        
-                <label for="domicilio"><b>Domicilio</b></label>
-                <input type="text" name="vivienda" class="inputreg" placeholder="Dirección">
+                <legend><h2> REGÍSTRATE </h2></legend>
+
+                <fieldset class="reg">
+                    <label for="firstname"></label>
+                    <input type="text" name="fullname" class="inputreg" placeholder="Nombre y apellido" minlength="3" required>
+                    
+                    <label for="nickname"></label>
+                    <input type="text" name="nickname" class="inputreg" placeholder="Nombre de usuario" minlength="1" required> 
+                    
+                    <label for="fechanacimiento"><b>Fecha de Nacimiento</b></label>
+                    <input type="date" name="" class="inputreg" placeholder="Fecha Nacimiento" required>
+            
+                    <label for="domicilio"><b>Domicilio</b></label>
+                    <input type="text" name="vivienda" class="inputreg" placeholder="Dirección" required>
+                </fieldset>    
 
                 <fieldset>
-                    <label for="perfil"><h3>Perfil de Usuario</h3></label>
+                    <label for="perfil" id="tituloreg"><h3>Perfil de Usuario</h3></label>
                     <fieldset class="tipouser">
-                        <p id="compra"><input type="radio" name="comprador"> Comprador</p>
-                        <p id="vende"><input type="radio" name="vendedor"> Vendedor</p>
+                        <p id="compra"><input type="radio" name="cov"> Comprador</p>
+                        <p id="vende"><input type="radio" name="cov"> Vendedor</p>
+                    </fieldset>   
+                        
+                    <label for="lascategorias" id="tituloreg"><h3>Categorías de Interés</h3></label>
+                    <fieldset class="categorias">
+                        <p id="electro"><input type="checkbox" value="check1" name="cat" >Electro</p>
+                        <p id="moda"><input type="checkbox" value="check2" name="cat" >Moda</p>
+                        <p id="hogar"><input type="checkbox" value="check3" name="cat" >Hogar</p>
+                        <p id="jugueteria"><input type="checkbox" value="check4" name="cat" >Juguetería</p>
+                        <p id="vidaSana"><input type="checkbox" value="check5" name="cat" >Vida Sana</p>
                     </fieldset>
+                </fieldset>                
+                
+                <fieldset class="fotouser">
+                    <label for="foto usuario" class="fotoreg"><h3>Foto de Usuario</h3></label>
+                    <input type="file" name="avatar" class="avatarreg"> 
                 </fieldset>    
-            </fieldset>    
-                    
-            <fieldset>
-                <label for="lascategoria"><h3>Categorías de Interés</h3></label>
-                <fieldset class="categorias">
-                    <p id="electro"><input type="checkbox" value="1" name="electro1">Electro</p>
-                    <p id="moda"><input type="checkbox" value="2" name="moda1">Moda</p>
-                    <p id="hogar"><input type="checkbox" value="3" name="hogar1">Hogar</p>
-                    <p id="jugueteria"><input type="checkbox" value="4" name="jugueteria1">Juguetería</p>
-                    <p id="vidaSana"><input type="checkbox" value="5" name="vidasana1">Vida Sana</p>
+                
+
+                <fieldset class="passreg">
+                    <label for="clave"></label>
+                    <input type="password" name="pass" class="inputreg" placeholder="Contraseña" minlength="4" required>
+
+                    <label for="confirmar"></label>
+                    <input type="password" name="pass" class="inputreg" placeholder="Confirmar contraseña" minlength="4" required>
                 </fieldset>
-            </fieldset>                
-            
-            <fieldset class="fotouser">
-                <label for="foto usuario" class="fotoreg"><h3>Foto de Usuario</h3></label>
-                <input type="file" name="avatar" class="avatarreg"> 
-            </fieldset>    
-            
 
-            <fieldset class="passreg">
-                <label for="clave"></label>
-                <input type="password" name="pass" class="inputreg" placeholder="Contraseña">
-
-                <label for="confirmar"></label>
-                <input type="password" name="pass" class="inputreg" placeholder="Confirmar contraseña">
+                <fieldset class="botonesreg">
+                    <button type="submit"id=enviarReg>Enviar</button>    
+                    <button type="reset" id="borrarReg">Borrar</button>
+                </fieldset>
+                
             </fieldset>
-
-            <fieldset class="botonesreg">
-                <button type="submit">Enviar</button>    
-                <button type="reset">Borrar</button>
-            </fieldset>
-    
         </form>
         
     </main>
@@ -149,7 +150,7 @@
     <!--     FOOTER o pie de página    -->
     <!--    ***********************    -->
     <footer>
-        <section>
+        <section id="secfooter">
 
             <article class="pagotarjeta">
                 <section id="credit"><i class="fa-solid fa-credit-card"></i></section>
@@ -176,13 +177,3 @@
 
 </body>
 </html>
-
-            <!--    **********    -->
-            <!--       MAIN       -->
-            <!--    **********    -->
-
-<main>
-
-    
-
-</main>

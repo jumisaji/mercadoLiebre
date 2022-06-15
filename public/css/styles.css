@@ -20,6 +20,7 @@ header {
     padding: 5px;
     font-size: 12px;
     width:100%;  
+
 }
 
 .encabezado{
@@ -40,6 +41,7 @@ header {
     height: 100%;
     color: #03264C;
     text-align: center;
+    
 }
 
 #buscar input{ 
@@ -58,8 +60,10 @@ header {
 }
 
 #pagar{
-    padding: 10px 10px;
+    padding: 5px 5px;
     margin: 10px 0px 10px 0px;
+    height: 2rem;
+    transition: all .3s;
 }
 
 #pagar a h3{
@@ -90,6 +94,7 @@ header {
     height: 40px;
     line-height: 40px;
     border-radius: 8px;
+    transition: all .5s;
 }
  
 /*      BANNER      */
@@ -100,6 +105,7 @@ header {
 
 #banner img {
     width: 100%;
+
 }
 
 /* **************  **************  **************  **************  **************  */
@@ -107,6 +113,9 @@ header {
 /* **************  **************  **************  **************  **************  */
 
 main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-position: right;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -123,6 +132,7 @@ main{
     border: #ebebeb solid 1px;
     width: 100%;
     margin-bottom: 10px;
+    transition: all .5s;
 }
 
 .descripciongeneral{  
@@ -131,6 +141,7 @@ main{
     display: flex;
     position: relative;
     flex-flow:  row wrap;
+    justify-content: center;
  } 
 
 .camionenvio {
@@ -147,6 +158,8 @@ main{
     position: absolute;
     top: -15px;
     right: 20px;
+    transform: rotate(0deg);
+    transition: all .3s;
 }
 
 .producto img{
@@ -165,6 +178,7 @@ main{
     font-size: 18px;
     flex-flow: row wrap;
     width: 30%;
+    justify-content: flex-start;
 }
 
 .descuento {
@@ -172,6 +186,7 @@ main{
     font-size: 1rem;
     flex-flow: row wrap;
     width: 70%;
+    justify-content: flex-end;
 }
 
 .nombreproducto{
@@ -186,26 +201,33 @@ main{
 /* **************  **************  **************  **************  **************  */
 
 footer {
+    background-color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 
 #credit{
     color: #1259c3;
     font-size: 2em;
+    transition: all .3s;
+
 }
 
 #gift{
     color: #1259c3;
     font-size: 2em;
+    transition: all .3s;
+
 }
 
 #security{
     color: #1259c3;
     font-size: 2em;
+    transition: all .3s;
 }
 
 footer .pagotarjeta{

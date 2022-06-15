@@ -80,6 +80,7 @@
         flex-basis: 100%;
         justify-content: flex-start;
         padding: 10px;
+        transition: all .5s;
     }
 
 }/*FIN MEDIA QUERIES TABLET*/
@@ -103,6 +104,7 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: flex-start;
+        transition: all .3s;
            
     }
     
@@ -113,7 +115,8 @@
     #opciones2 {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between  
+        justify-content: space-between;
+        transition: all .3s;
     }
 
      #opciones2 a{
@@ -159,6 +162,25 @@
         display: flex;
         flex-basis: 100%;
         justify-content: flex-start;
+        transition: all .5s;
     }
+    #secfooter { 
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    #secfooter article{
+        padding: 3px 30px;
+        width: 33%;
+    }
+
+    #secfooter p{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
 
 }/*FIN MEDIA QUERIES DESKTOPS */
