@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css"> <!--Llamo documento en CSS que contiene los estilos definidos -->
     <link rel="stylesheet" href="./css/mediaque.css"> <!--Llamo documento CSS que contiene los estilos de media queries -->
+    <link rel="stylesheet" href="./css/formularios.css"> <!--Llamo documento CSS que contiene los estilos de archivo formularios -->
 
 </head>
 
@@ -41,7 +42,7 @@
             </form>
             <!--   SECCIÓN FORMA DE PAGO  -->
             <section id="pagar">
-                <a href=""><h3></h3><i class="fa-solid fa-hand-holding-dollar"></i><b>Compra en cuotas y sin tarjeta de crédito</b></h3></a>
+                <a href=""><h3><i class="fa-solid fa-hand-holding-dollar"></i><b>Compra en cuotas y sin tarjeta de crédito</b></h3></a>
             </section>
 
         </section>
@@ -85,23 +86,27 @@
      <!--Este Main contiene la información del formulario de login-->
      <main>
          
-        
         <form class="login" action="/login.html" method="post">
-            <nav class="nombre de usuario">
-                <label for=""></label>
-                <input type="text" name="user" class="inputlogin" placeholder="Nombres">
-            </nav>
-            
-            <nav class="clave">
-                <label for=""></label>
-                <input type="password" name="pass" class="inputlogin" placeholder="Contraseña">
-            </nav>
-        </form>
-        
-        <nav class="botonlogin">
-            <button type="botoningreso" id="enviar" class="botonlogin"></button>
-        </nav>
-         
+            <fieldset class="log">
+                <legend><h3> INGRESA </h3></legend>
+                <nav class="nombreusuario">
+                    <label for=""></label>
+                    <input type="text email" name="user" class="inputlogin" placeholder="   Nombre de Usuario o name@email.com">
+                </nav>
+                
+                <nav class="clave">
+                    <label for=""></label>
+                    <input type="password" name="pass" class="inputlogin" placeholder="   Contraseña">
+                </nav>
+
+                <nav class="boton">
+                    <button type="submit" name="botonlogin" id="botonlog">Enviar</button>
+                    </button>
+                </nav>
+            </fieldset>
+
+        </form>        
+ 
     </main>
 
     <!--    ***********************    -->

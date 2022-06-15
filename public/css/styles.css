@@ -16,7 +16,9 @@ header {
     font-family: 'Roboto', sans-serif;
     padding: 5px;
     font-size: 12px;
-    max-width:100%;  
+    width:100%;  
+
+
 }
 .encabezado{
     display: flex;
@@ -40,17 +42,17 @@ header {
 
 #buscar input{ 
     background-color: white;
-    width: 8rem;
+    width: 9rem;
     height: 2rem;
     line-height: 40px;
     border-radius: 8px;
 }
 
 #buscar button{
-    background-color: lightsteelblue;
+    background-color:white;
     border-radius: 4px;
     padding: 5px;
-    margin-left: -2px;
+    margin-left: -28px;
 }
 
 #pagar{

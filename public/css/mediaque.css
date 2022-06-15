@@ -3,9 +3,9 @@
 /* **************  **************  **************  **************  **************  */
 
 /*Tablets*/
-@media screen and (min-width: 600px){ 
+@media screen and (min-width: 620px){ 
     .producto{
-         box-shadow: 0px 0px 10px rgb(100, 100, 100); /*https://www.cssmatic.com/box-shadow*/
+         box-shadow: 0px 0px 10px 0px rgb(100, 100, 100); /*https://www.cssmatic.com/box-shadow*/
         }
 
 .op {
@@ -43,18 +43,21 @@ justify-content: space-around;
 width: 30%;
 }
 #buscar input{ 
-    width: 7rem;
-    height: 1rem;
+    width: 10rem;
+    height: 1.5rem;
 }
 #buscar button{
     border-radius: 3px;
     padding: 3px;
+    margin: -28px;
+    background-color: white;
 }
     
 #pagar{
     padding: 5px;
     margin: 20px 1px 10px 1px;
     width: 38%;
+    font-size: 12.5px;
 }
 
 .producto {
@@ -86,7 +89,7 @@ width: 30%;
 /* Desktops*/
 @media screen and (min-width: 1000px){
 .producto {
-     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+     box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
     }
     .op {
         display: flex;
@@ -125,13 +128,15 @@ width: 30%;
     }
 
     #buscar input{ 
-        width: 15rem;
-        height: 1rem;
+        width: 18rem;
+        height: 1.5rem;
     }
 
     #buscar button{
         border-radius: 3px;
         padding: 3px;
+        margin: -28px;
+        background-color: white;
     }
         
     #pagar{

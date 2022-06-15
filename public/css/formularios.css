@@ -1,0 +1,64 @@
+/* *********** */
+/* FORM LOGIN  */
+/* *********** */
+.login{
+    display: flex;
+    flex-flow: column;
+    width: 80%;
+    padding: 20px 1px 20px 1px;
+    margin: auto;
+    background-color: #cacaca;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
+}
+.login legend{
+    font-size: 14px;
+    color: #666;
+}
+.nombreusuario input, .clave input{
+    width: 50vw;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+.login nav{
+    padding: 20px;
+}
+
+.boton button {
+background-color: #1259c3;
+color: white;
+width: 50vw;
+height: 2rem;
+border-radius: 4px;
+}
+
+/* *********** */
+/* FORM LOGIN  */
+/* *********** */
+.registro{
+    display: flex;
+    flex-flow: column;
+    width: 30%;
+    height: 100%;
+    padding: 20px 1px 20px 1px;
+    margin: auto;
+    background-color: #cacaca;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
+}
+
+.registro legend{
+    font-size: 14px;
+    color: #666;
+    padding: 2px;
+    padding-bottom: 10px;
+    flex-flow: row wrap;
+}
+
+
+
+.registro input {
+    flex-flow: row wrap;
+    border-radius: 4px;
+}

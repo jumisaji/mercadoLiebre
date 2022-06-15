@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css"> <!--Llamo documento en CSS que contiene los estilos definidos -->
     <link rel="stylesheet" href="./css/mediaque.css"> <!--Llamo documento CSS que contiene los estilos de media queries -->
+    <link rel="stylesheet" href="./css/formularios.css"> <!--Llamo documento CSS que contiene los estilos de archivo formularios -->
 
 </head>
 
@@ -86,45 +87,50 @@
      <main>
          
          <form  class="registro" action="/register.html" method="post">
+             <legend><h3> REGISTRATE </h3></legend>
              
-            <label for="firstname">
-                <input type="text" name="fullname" class="inputregistro" placeholder="Nombre y apellido" minlength="3">
-            </label>
-            
-            <label for="apodo">
-                <input type="text" name="nickname" class="imputregistro" placeholder="Nombre de usuario" minlength="3"> 
-            </label>
-    
-            <label for="fechanacimiento">Fecha de Nacimiento</label>
-            <input type="date" name="" class="imputregistro" placeholder="Fecha de Nacimiento">
-    
-            <label for="domicilio">Domicilio</label>
-            <input type="radio" name="vivienda" class="imputregistro" placeholder="Dirección de Domicilio">
-            
-            <label for="Perfil">Domicilio</label>
-            <input type="" name="comprador"> Comprador
-            <input type="" name="vendedor"> Vendedor
+             <fieldset class="reg">
+                <label for="firstname"></label>
+                <input type="text" name="fullname" class="inputreg" placeholder="Nombre y apellido" minlength="3">
                 
-            <label for="">Categoías de Interés
-            <input type="checkbox" value="" name="">Electro
-            <input type="checkbox" value="" name="">Moda
-            <input type="checkbox" value="" name="">Hogar
-            <input type="checkbox" value="" name="">Juguetería
-            <input type="checkbox" value="" name="">Vida Sana
-            </label>
-    
-            <label for="fotousuario">Foto de Usuario</label>
+                <label for="nickname"></label>
+                <input type="text" name="nickname" class="imputreg" placeholder="Nombre de usuario" minlength="3"> 
+                
+                <label for="fechanacimiento">Fecha de Nacimiento</label>
+                <input type="date" name="" class="imputreg" placeholder="Fecha de Nacimiento">
+        
+                <label for="domicilio">Domicilio</label>
+                <input type="text" name="vivienda" class="imputreg" placeholder="Dirección">
+                
+                <label for="perfil">Perfil de Usuario</label>
+                <input type="radio" name="comprador"> Comprador
+                <input type="radio" name="vendedor"> Vendedor
+            </fieldset>    
+                    
+            <fieldset class="categorias">
+                <label for="">Categorías de Interés</label>
+                <input type="checkbox" value="" name="">Electro
+                <input type="checkbox" value="" name="">Moda
+                <input type="checkbox" value="" name="">Hogar
+                <input type="checkbox" value="" name="">Juguetería
+                <input type="checkbox" value="" name="">Vida Sana
+            </fieldset>                
+            
+            <label for="fotouser">Foto de Usuario</label>
             <input type="file" name="avatar"> 
-    
-            <label for="clave"></label>
-            <input type="password" name="pass" class="inputregistro" placeholder="contraseña">
-    
-            <label for="confirmar"></label>
-            <input type="password" name="pass" class="inputregistro" placeholder="Confirmar contraseña">
-    
-            <button type="submit">Enviar</button>
-                
-            <button type="reset">Borrar</button>
+
+            <fieldset class="passreg">
+                <label for="clave"></label>
+                <input type="password" name="pass" class="inputreg" placeholder="contraseña">
+
+                <label for="confirmar"></label>
+                <input type="password" name="pass" class="inputreg" placeholder="Confirmar contraseña">
+            </fieldset>
+
+            <fieldset class="botonesreg">
+                <button type="submit">Enviar</button>    
+                <button type="reset">Borrar</button>
+            </fieldset>
     
         </form>
         
