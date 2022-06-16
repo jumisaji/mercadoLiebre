@@ -1,6 +1,7 @@
 const path = require('path');
 const express = require('express');
 const server = express();
+//Para Heroku:
 //const port= prcess.env.PORT || 2020;
 //server.listen(port, () => console.log('Abriendo el servidor http://localhost:${port}'));
 
