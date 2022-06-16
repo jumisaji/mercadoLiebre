@@ -1,0 +1,58 @@
+/* **************  **************  **************  **************  **************  */
+/* **************    ESTILOS EN FOOTER Y ELEMENTOS QUE LO COMPONEN  ************** */
+/* **************  **************  **************  **************  **************  */
+
+footer {
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#credit{
+    color: #1259c3;
+    font-size: 2em;
+    transition: all .3s;
+
+}
+
+#gift{
+    color: #1259c3;
+    font-size: 2em;
+    transition: all .3s;
+
+}
+
+#security{
+    color: #1259c3;
+    font-size: 2em;
+    transition: all .3s;
+}
+
+footer .pagotarjeta{
+    margin-bottom: 10px;
+    color: #666;
+}
+
+footer .enviogratis{
+    margin-bottom: 10px;
+    color: #666;
+}
+
+footer .protegido{
+    margin-bottom: 10px;
+    color: #666;
+}
+
+footer p{
+    color: #666; 
+    margin-top: 1px; 
+    font-size: 12px;
+}
+
+#derechosautor{
+    margin-top: 50px; 
+}

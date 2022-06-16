@@ -1,0 +1,89 @@
+/* **************  **************  **************  **************  **************  */
+/* **************     ESTILOS EN MAIN Y ELEMENTOS QUE LO COMPONEN   ************** */
+/* **************  **************  **************  **************  **************  */
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: right;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    background-color: #ebebeb;
+    padding: 10px;
+}
+
+.producto{
+    text-align: justify;
+    display: inline-block;
+    background-color:white;
+    border: #ebebeb solid 1px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: all .5s;
+    border-radius: 5px;
+}
+
+.descripciongeneral{  
+    padding: 15px;
+    border-top: #ebebeb solid 1px;
+    display: flex;
+    position: relative;
+    flex-flow:  row wrap;
+    justify-content: center;
+ } 
+
+.camionenvio {
+    text-align: right;
+    color: #39b54a;
+    display: block;
+    border: #39b54a solid 1px;
+    background-color: #FFF;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: 20px;
+    transform: rotate(0deg);
+    transition: all .3s;
+}
+
+.producto img{
+    width: 90%;
+}
+
+#visitado , #ofertado{   
+    padding: 8px;
+    color: #666;    
+    text-align: center;
+    font-size: 24px;
+}
+
+.precio{
+    color: black;
+    font-size: 18px;
+    flex-flow: row wrap;
+    width: 30%;
+    justify-content: flex-start;
+}
+
+.descuento {
+    color: #39b54a;
+    font-size: 1rem;
+    flex-flow: row wrap;
+    width: 70%;
+    justify-content: flex-end;
+}
+
+.nombreproducto{
+    display: none;
+}
+
+.detalleproducto{
+    display: none;
+}
