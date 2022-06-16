@@ -202,10 +202,7 @@
     color: goldenrod;
 }
 
-.nombreproducto:hover{
-    display: inline-block;
-}
-
+    
 #opciones1 a:hover, #opciones2 a:hover{
     box-shadow: 0px 0px 8px 0px rgb(100, 100, 100);
     border-radius: 5px;
@@ -219,6 +216,11 @@ color: #1259c3;
 #burgerMenu a i:hover{
     background-color: lightsteelblue;
     color: #0022AA;
+}
+
+.producto:hover { 
+    box-shadow: 3px 3px 20px 0px rgb(100, 100, 100);
+
 }
 
 .producto:hover .nombreproducto , .detalleproducto{ 
