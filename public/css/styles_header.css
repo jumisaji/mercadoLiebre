@@ -20,7 +20,6 @@ header {
     padding: 5px;
     font-size: 12px;
     width:100%;  
-
 }
 
 .encabezado{
@@ -56,6 +55,11 @@ header {
     border-radius: 4px;
     padding: 5px;
     margin-left: -28px;
+}
+
+#buscar button i{
+    color: rgb(135, 156, 201);
+    transition: all .5s;
 }
 
 #pagar{
