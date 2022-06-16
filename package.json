@@ -4,7 +4,8 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "node app.js"
+    "test": "node app.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
