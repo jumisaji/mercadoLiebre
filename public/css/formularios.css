@@ -43,6 +43,8 @@
 .registro{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 50vw;
     height: auto;
     padding: 20px 1px;
@@ -55,6 +57,7 @@
 }
 
 .registro .formreg{
+    display: flex;
     justify-content: center;
     text-align: center;
     margin: 10px 0px;
@@ -140,24 +143,35 @@
     
 }
 
-.botonesreg{
+.botonesreg {
     display: flex;
-    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
-.botonesreg button{ 
+.botonesreg a{
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    width: 50%;
+
+}
+
+.botonesreg a button{ 
+    align-items: center;
+    justify-content: space-evenly;
     background-color: #1259c3;
     color: white;
-    width: 10vw;
+    width: 20vw;
     height: 2rem;
     border-radius: 4px;
     width: 70%;
     margin: 10px 4vw;
     transition: all .3s;
     display: flex;
-
+    flex-flow: row wrap;
 }
 
 /* Animaciones */
@@ -187,10 +201,6 @@
 #credit:hover, #gift:hover, #security:hover{
     color: goldenrod;
 }
-.producto:hover{
-    box-shadow: 3px 3px 20px 0px rgb(100, 100, 100);
-
-}
 
 .nombreproducto:hover{
     display: inline-block;
@@ -210,3 +220,8 @@ color: #1259c3;
     background-color: lightsteelblue;
     color: #0022AA;
 }
+
+.producto:hover .nombreproducto , .detalleproducto{ 
+display: flex;
+}
+

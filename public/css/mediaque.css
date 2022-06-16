@@ -69,14 +69,14 @@
     }
 
     .detalleproducto{
-        display: flex;
+        display: none;
         flex-wrap: wrap;
         margin: 0px 5px;
         font-size: 16px;
     }
 
     .nombreproducto{
-        display: flex;
+        display: none;
         flex-basis: 100%;
         justify-content: flex-start;
         padding: 10px;
@@ -152,14 +152,13 @@
     }
 
     .detalleproducto{
-        display: flex;
+        display: none;
         flex-wrap: wrap;
-        font-size: 16px;
         flex-direction: column;
     }
 
     .nombreproducto{
-        display: flex;
+        display: none;
         flex-basis: 100%;
         justify-content: flex-start;
         transition: all .5s;
