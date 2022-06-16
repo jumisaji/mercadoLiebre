@@ -40,8 +40,7 @@ header {
     width: 50%;
     height: 100%;
     color: #03264C;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 #buscar input{ 
@@ -133,6 +132,7 @@ main{
     width: 100%;
     margin-bottom: 10px;
     transition: all .5s;
+    border-radius: 5px;
 }
 
 .descripciongeneral{  

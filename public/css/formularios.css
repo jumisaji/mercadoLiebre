@@ -9,8 +9,8 @@
     background-color: #cacaca;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
 }
 .login legend{
@@ -46,14 +46,15 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 50vw;
-    height: auto;
+    height: 95vh;
     padding: 20px 1px;
     background-color: #cacaca;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
     color: #666;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 13.5px;
 }
 
 .registro .formreg{
@@ -69,7 +70,7 @@
     font-size: 14px;
     color: #666;
     padding: 2px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .formreg {
@@ -98,7 +99,7 @@
 }
 
 .fotouser{
-    padding-top: 15px;
+    padding-top: 20px;
     padding-bottom: 10px;
     align-items: center;
 }
@@ -124,7 +125,7 @@
     flex-flow: column wrap;
 }
 .tipouser{
-    padding-bottom:20px ;
+    padding-bottom:18px ;
 }
 
 .categorias p{
@@ -132,15 +133,14 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    padding: 10px 5px 2px 5px;
-    margin: 10px 2px;
+    padding: 5px 5px 2px 5px;
+    margin: 2px 2px;
 }
 
 .categorias input{
     display: flex;
     justify-content: flex-start;
     padding: 2px;
-    
 }
 
 .botonesreg {
@@ -148,7 +148,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 .botonesreg a{
@@ -224,6 +223,7 @@ color: #1259c3;
 }
 
 .producto:hover .nombreproducto , .detalleproducto{ 
-display: flex;
+    display: flex;
 }
+
 
