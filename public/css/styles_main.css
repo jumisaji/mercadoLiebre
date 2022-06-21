@@ -16,7 +16,7 @@ main{
 }
 
 .producto{
-    text-align: justify;
+    text-align: center;
     display: inline-block;
     background-color:white;
     border: #ebebeb solid 1px;
