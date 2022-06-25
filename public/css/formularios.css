@@ -3,7 +3,7 @@
 /* *********** */
 .login{
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     width: 80%;
     padding: 20px 1px 20px 1px;
     background-color: #cacaca;
@@ -44,19 +44,14 @@
 
 .registro{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 50vw;
-    height: 95vh;
-    padding: 20px 1px;
+    flex-flow: column wrap;
+    width: 80%;
+    padding: 20px 1px 20px 1px;
     background-color: #cacaca;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 0px rgb(100, 100, 100);
-    color: #666;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 13.5px;
 }
 
 .registro .formreg{
